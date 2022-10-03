@@ -6,7 +6,7 @@
 
 #####Use during training#############
 #SBATCH --partition=reservation
-#SBATCH --reservation=bootcamp2021cpu
+#SBATCH --reservation=fall_training_cpu_2022
 #####################################
 
 #####Use during & after training#####
