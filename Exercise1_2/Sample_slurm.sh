@@ -1,15 +1,6 @@
 #!/bin/bash
 
-#####Use after training##############
-##SBATCH -p short
-#####################################
-
-#####Use during training#############
-#SBATCH --partition=reservation
-#SBATCH --reservation=fall_training_cpu_2022
-#####################################
-
-#####Use during & after training#####
+#SBATCH -p short
 #SBATCH --job-name=sample_slurm_job
 #SBATCH --time=00:05:00
 #SBATCH -N 1
