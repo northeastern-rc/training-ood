@@ -1,5 +1,6 @@
 # Install visualization package ggplot2
 install.packages("ggplot2")
+library(ggplot2)
 
 View(airquality) # View an in-built dataset called airquality
 str(airquality) # Structure of the dataset
